@@ -1,5 +1,3 @@
-# MultiLabelStreamClassification
-
 # MultiLabel Stream Classification
 
 ## Overview
@@ -24,20 +22,21 @@ git clone https://github.com/d1azox/MultiLabelStreamClassification.git
 cd MultiLabelStreamClassification
 pip install -r requirements.txt
 ```
-Running the Notebook
+### Running the Notebook
 
 Ensure you are in the project directory and then start Jupyter Notebook to access the notebook_20NG.ipynb:
+
 ```bash
 jupyter notebook
 ```
 
-Experiments and Results
+### Experiments and Results
 
 The project evaluates various configurations and their impact on the performance of multi-label streaming classification. The results demonstrate significant improvements in the Jaccard index, emphasizing the importance of adaptive techniques in continual learning.
 
 For detailed information on the experiments and their outcomes, refer to the provided Jupyter notebook.
 
-References
+### References
 
 1.	Wang, X. (2023). Classification Multi-Labels en flux: comparaisons d'approches et nouvelles propositions. [Doctoral dissertation, Nantes Université]. HAL Archives. Available at: https://theses.hal.science/tel-04107514v1
 2.	Roseberry, M. (2024). Adaptive Multi-label Classification on Drifting Data Streams. [Virginia Commonwealth University]. Scholars Compass. Available at: https://scholarscompass.vcu.edu/cgi/viewcontent.cgi?article=8697&context=etd
